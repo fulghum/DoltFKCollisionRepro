@@ -6,4 +6,4 @@ To run this project, first start up a `dolt sql-server`:
 - `dolt sql-server --port 11229 --loglevel DEBUG`
 
 Then run the Maven project:
-- `mvn exec:java -Dexec.mainClass="org.example.Main"`
+- `mvn install exec:java -Dexec.mainClass="org.example.Main"`
